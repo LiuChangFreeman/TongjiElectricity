@@ -196,7 +196,14 @@ class Index extends Component {
                 </View>
               </MatchMedia>
             }
-            <View className='weui-footer__Text'>Copyright &copy; 2016-2021 liuchangfreeman.xyz</View>
+            <View className='weui-footer__Text'>Copyright &copy; 2016-2021 tjservice.cn </View>
+            <View className='weui-footer__Text'>Powered by
+              {
+                process.env.TARO_ENV === 'h5'&&
+                // eslint-disable-next-line react/forbid-elements
+                <a href="https://webify.cloudbase.net"> CloudBase Webify</a>
+              }
+            </View>
           </View>
         </View>
       </View>
