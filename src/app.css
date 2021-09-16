@@ -1,0 +1,9 @@
+.weui-flex{
+  margin: 5PX;
+}
+
+.weui-flex__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
