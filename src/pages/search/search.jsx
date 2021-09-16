@@ -178,7 +178,7 @@ class Search extends Component {
 
           </View>
           <View className='weui-footer weui-footer_fixed-bottom'>
-            <View className='weui-footer__text'>Copyright &copy; 2016-2021 liuchangfreeman.xyz</View>
+            <View className='weui-footer__text'>Copyright &copy; 2016-2021 tjservice.cn</View>
           </View>
         </View>
       </View>
